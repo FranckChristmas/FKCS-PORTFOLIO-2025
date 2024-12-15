@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css" : "tailwindcss -i assets/css/styles.css -o dist/style.css",
+    "build:css": "tailwindcss -i assets/css/styles.css -o dist/style.css",
+    "watch:css": "tailwindcss -i assets/css/styles.css -o dist/style.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
